@@ -1,0 +1,11 @@
+{
+  "ambientDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160316155526",
+    "jquery.validation": "registry:dt/jquery.validation#1.13.1+20160317120654"
+  },
+  "exclude": [
+    "typings/browser",
+    "typings/browser.d.ts",
+    "node_modules"
+  ]
+}
