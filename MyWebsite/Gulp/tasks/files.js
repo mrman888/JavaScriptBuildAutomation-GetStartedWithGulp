@@ -14,6 +14,9 @@ gulp.task('copy-files', function () {
     gulp.src(config.libs.jquery_validation_unobtrusive)
    .pipe(gulp.dest(config.libs.jquery_validation_unobtrusiveTarget));
 
+    gulp.src(config.libs.bootstrap)
+   .pipe(gulp.dest(config.libs.bootstrapTarget));
+
     //images
     gulp.src(config.images)
     .pipe(gulp.dest(config.imagesTarget));

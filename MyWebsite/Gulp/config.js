@@ -22,14 +22,18 @@
         imagesTarget: wwwroot + "/images",
 
         //external javascript libraries
-
         libs: {
             jquery: [nodeSource + '/jquery/dist/**/*.*'],
             jqueryTarget: wwwroot + '/libs/jquery/',
+
             jquery_validation: [nodeSource + '/jquery-validation/dist/**/*.*', "!" + nodeSource + '/jquery-validation/dist/localization/**/*.*'],
             jquery_validationTarget: wwwroot + '/libs/jquery-validation/',
+
             jquery_validation_unobtrusive: [nodeSource + '/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'],
-            jquery_validation_unobtrusiveTarget: wwwroot + '/libs/jquery-validation-unobtrusive/'
+            jquery_validation_unobtrusiveTarget: wwwroot + '/libs/jquery-validation-unobtrusive/',
+
+            bootstrap: [nodeSource + '/bootstrap/dist/**/*.*'],
+            bootstrapTarget: wwwroot + '/libs/bootstrap/'
         },
 
         libsTarget: wwwroot + "/libs/",
