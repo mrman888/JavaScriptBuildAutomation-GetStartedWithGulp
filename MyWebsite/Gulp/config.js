@@ -21,6 +21,17 @@
         ],
         imagesTarget: wwwroot + "/images",
 
+        //application javascript scripts
+        scripts: [
+            scriptsSource + '/site.js'
+        ],
+        scriptsMaps: [
+            scriptsSource + '/**/*.map'
+        ],
+        scriptsTarget: wwwroot + "/js",
+        scriptsWatch: scriptsSource + '/**/*.js',
+
+
         //external javascript libraries
         libs: {
             jquery: [nodeSource + '/jquery/dist/**/*.*'],
