@@ -23,7 +23,8 @@
 
         //application javascript scripts
         scripts: [
-            scriptsSource + '/site.js'
+            scriptsSource + '/site.js',
+            scriptsSource + '/siteconfiguration.js'
         ],
         scriptsMaps: [
             scriptsSource + '/**/*.map'

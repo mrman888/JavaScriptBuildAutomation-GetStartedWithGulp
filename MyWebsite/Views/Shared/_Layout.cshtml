@@ -49,9 +49,11 @@
         <environment names="Development">
             <script src="~/libs/jquery/jquery.js"></script>
             <script src="~/libs/bootstrap/js/bootstrap.js"></script>
+            <script src="~/js/siteconfiguration.js" asp-append-version="true"></script>
             <script src="~/js/site.js" asp-append-version="true"></script>
         </environment>
         <environment names="Staging,Production">
+            
             <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"
                     asp-fallback-src="~/libs/jquery/jquery.min.js"
                     asp-fallback-test="window.jQuery">
@@ -60,10 +62,9 @@
                     asp-fallback-src="~/libs/bootstrap/js/bootstrap.min.js"
                     asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
             </script>
+      
             <script src="~/js/site.min.js" asp-append-version="true"></script>
         </environment>
-
-
 
         @RenderSection("scripts", required: false)
     </body>

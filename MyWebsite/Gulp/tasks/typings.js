@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 
 gulp.task('typings', function () {
     gulp.src("./typings.json")
-       .pipe(typings()); //will install all typingsfiles in pipeline.
+       .pipe(typings()); //will install all typings files in pipeline.
 });
 
 /*  gulp watch tasks for typescript typings*/
