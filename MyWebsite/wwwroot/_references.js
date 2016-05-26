@@ -10,3 +10,6 @@
 /// <reference path="../gulpfile.js" />
 /// <reference path="js/site.min.js" />
 /// <reference path="js/site-bundle.min.js" />
+/// <reference path="js/siteconfiguration.min.js" />
+/// <reference path="libs/bootstrap/js/bootstrap.min.js" />
+/// <reference path="libs/bootstrap/js/npm.js" />

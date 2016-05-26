@@ -24,5 +24,6 @@ gulp.task('styles-bundle', function () {
 
 /*  gulp watch tasks */
 gulp.task('watch-styles', ['styles-bundle'], function () {
+
     gulp.watch(config.stylesWatch, ['styles-bundle']);
 });

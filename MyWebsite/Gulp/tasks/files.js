@@ -3,6 +3,7 @@
 var gulp = require('gulp'),
     config = require('../config')();
 
+
 gulp.task('copy-files', function () {
     //external libraries
     gulp.src(config.libs.jquery)

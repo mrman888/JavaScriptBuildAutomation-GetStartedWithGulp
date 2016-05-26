@@ -5,8 +5,7 @@
     flatten = require('gulp-flatten'),
     config = require('../config')();
 
-gulp.task('scripts-bundle', function () {
-   
+gulp.task('scripts-bundle',  function () {   
     //map files
     gulp.src(config.scriptsMaps)
     .pipe(flatten())
